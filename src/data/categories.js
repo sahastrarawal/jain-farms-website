@@ -1,0 +1,68 @@
+import { assets } from './assets'
+
+export const categories = [
+  {
+    id: 'fruits',
+    slug: 'fresh-fruits',
+    name: 'Fresh Fruits',
+    shortName: 'Fruits',
+    description: 'Season-led fruit, carefully selected for ripeness and flavour.',
+    image: assets.categories.fruits,
+  },
+  {
+    id: 'exotic-fruits',
+    slug: 'exotic-fruits',
+    name: 'Exotic Fruits',
+    shortName: 'Exotic',
+    description: 'Distinctive fruit from trusted growing regions.',
+    image: assets.categories.fruits,
+  },
+  {
+    id: 'vegetables',
+    slug: 'fresh-vegetables',
+    name: 'Fresh Vegetables',
+    shortName: 'Vegetables',
+    description: 'Everyday greens, roots and staples procured fresh.',
+    image: assets.categories.vegetables,
+  },
+  {
+    id: 'exotic-vegetables',
+    slug: 'exotic-vegetables',
+    name: 'Exotic Vegetables',
+    shortName: 'Exotic veg',
+    description: 'Speciality vegetables for contemporary kitchens.',
+    image: assets.categories.exoticVegetables,
+  },
+  {
+    id: 'dry-fruits',
+    slug: 'dry-fruits',
+    name: 'Dry Fruits',
+    shortName: 'Dry fruits',
+    description: 'Premium nuts, dates, seeds and dried fruit.',
+    image: assets.categories.dryFruits,
+  },
+  {
+    id: 'ghee',
+    slug: 'desi-ghee',
+    name: 'Desi Ghee',
+    shortName: 'Desi ghee',
+    description: 'Rich, aromatic desi cow ghee in practical pack sizes.',
+    image: assets.categories.ghee,
+  },
+  {
+    id: 'snacks',
+    slug: 'snacks',
+    name: 'Snacks',
+    shortName: 'Snacks',
+    description: 'Thoughtful munching, from khakhra to makhana.',
+    image: assets.categories.snacks,
+  },
+  {
+    id: 'grocery',
+    slug: 'grocery',
+    name: 'Grocery',
+    shortName: 'Grocery',
+    description: 'Pantry staples sourced with the same attention to quality.',
+    image: assets.categories.grocery,
+  },
+]
